@@ -1,0 +1,52 @@
+.ant-table-wrapper .ant-table-tbody >tr >td,
+.ant-table-wrapper .ant-table-thead >tr>th{
+    border-bottom: none;
+    font-size: 16px;
+    color: #222222;
+}
+.ant-table-wrapper .ant-table-thead >tr>th{
+    background-color: #f1f1f1;
+}
+.ant-checkbox .ant-checkbox-inner {
+    height: 20px;
+    width: 20px;
+    border:1px solid #222222;
+    border-radius: 4px;
+}
+.ant-table-wrapper .ant-table-tbody>tr>td{
+    padding: 24px 16px;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*{
+    padding-left:16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-top: 16px;
+}
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:first-child{
+    padding: 24px 16px !important;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner:after{
+    width: 10px;
+    height: 10px;
+    background-color: black !important;
+}
+.ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner{
+    border-color: black !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-checked .ant-checkbox-inner:hover {
+    background-color: black !important;
+}
+.ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected >.ant-table-cell {
+    background: #f1f1f1;
+}
+.ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-hover {
+    background: #d5d5d5;
+}
+
+.ant-table-row-selected .anticon{
+    background-color: white !important;
+}

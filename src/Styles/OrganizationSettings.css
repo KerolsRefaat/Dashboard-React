@@ -1,0 +1,128 @@
+.ant-btn-default:hover,
+.ant-btn-default{
+    color:#222222 !important;
+    border-color: #222222 !important;
+
+}
+.ant-dropdown-menu-item-selected{
+    color: black !important;
+    font-weight: 500 !important;
+    background-color: #f5f5f5f5 !important;
+    box-shadow: none !important;
+
+}
+.ant-dropdown-menu-item-selected:hover{
+    background-color: #f5f5f5f5;
+}
+.ant-wave{
+    display: none;
+}
+
+.weekDays .ant-select-selector,
+.Organizations .ant-select-selector{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.weekDays .ant-select-selector{
+    padding: 0% !important;
+
+}
+
+.Organizations .ant-select-arrow{
+    font-size: medium !important;
+    color: #222222 !important;
+}
+
+.weekDays .ant-select-arrow{
+    font-size: 15px !important;
+    right: 0%;
+}
+
+.weekDays .ant-select-single.ant-select-open,
+.Organizations .ant-select-single.ant-select-open{
+    box-shadow: none;
+    outline: none;
+
+}
+
+.ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled){
+    background-color: #f5f5f5f5 !important;
+    margin: 3px 0;
+
+}
+.Organizations .ant-select-single.ant-select-open .ant-select-selection-item,
+.Organizations.ant-select-single .ant-select-selection-item{
+    color: #222222 ;
+    font-weight: 600 ;
+    font-size: 16px;
+}
+.Organizations .ant-select-single .ant-select-selection-item{
+    margin-bottom: 1% !important;
+
+}
+
+.weekDays .ant-select-single.ant-select-open .ant-select-selection-item,
+.weekDays .ant-select-single .ant-select-selection-item,
+.Organizations .ant-select-single.ant-select-open .ant-select-selection-item,
+.Organizations .ant-select-single .ant-select-selection-item{
+    color: #222222 ;
+    font-weight: 600 ;
+    font-size: 16px;
+    
+}
+
+.Organizations .ant-select .ant-select-arrow .anticon >svg{
+    font-size: small;
+}
+
+input[type='checkbox'] {
+    width: 19px;
+    height: 19px;
+    border-radius: 5px !important;
+  }
+  
+  input[type='radio']:checked {
+    background: #222222;
+    
+  }
+
+  .ant-picker-input >input{
+    color: #222222 !important;
+    text-transform: uppercase;
+  }
+
+  .ant-picker-input >input::placeholder{
+    text-transform: none;
+  }
+  
+  
+.Timezone .ant-space-gap-col-small {
+    column-gap: 0px;
+}
+
+
+.businessDay .ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+    background: #dedede;
+}
+
+.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+    font-weight: 600;
+    background-color: #f5f5f5f5 !important;
+
+}
+.ant-picker-suffix{
+    color: #222222 !important;
+}
+
+.newBtn >span{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.deleteBtn >span{
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+}

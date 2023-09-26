@@ -1,0 +1,40 @@
+.ant-menu-inline-collapsed >.ant-menu-item{
+    padding-inline: calc(50% - 11px - 4px);
+    padding-top: 3px;
+}
+.ant-layout-sider-collapsed .ant-btn{
+    left: 80% !important
+}
+.ant-menu-light .ant-menu-item-selected {
+    color: white;
+}
+.ant-menu-light .ant-menu-item{
+    border-radius: 0%;
+}
+.ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-i0102m).ant-menu-light>.ant-menu .ant-menu-item-selected {
+    background-color: #222222;
+    border-radius: 0%;
+}
+
+.ant-menu-item-selected *  {
+    fill: white;
+}
+.ant-menu-item-selected .headset * {
+    stroke: white;
+}
+
+.ant-layout-content .ant-menu-item{
+    padding-left: 20px !important;
+}
+
+.ant-layout-content .ant-menu-title-content{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ant-menu-item .lock *{
+    stroke: black;
+}
+.ant-menu-item-selected .lock *{
+    stroke: none;
+}
